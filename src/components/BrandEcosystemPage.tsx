@@ -53,16 +53,16 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
           <div className="flex flex-col justify-between lg:col-span-6">
             <div>
               <p className="text-xs font-medium tracking-wide text-[#22C55E]">
-                Page 02 · Services &amp; Brand Ecosystem
+                For Brands &amp; Companies · Youth Campaign Solutions
               </p>
               <h1
                 className="mt-4 font-bold tracking-tight text-white text-balance"
                 style={{ fontSize: 'clamp(2.25rem, 4vw, 3.5rem)', lineHeight: 1.08 }}
               >
-                Tap into authentic youth execution and real Gen-Z insights.
+                Reach Gen-Z through authentic content, feedback, and campus reach.
               </h1>
               <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-300 sm:text-lg">
-                Brands partner with Funngro to launch content production, campus promotion, product sampling, surveys, and micro-task sprints—powered by a verified network of young earners.
+                Partner with Funngro to run youth content creation, brand promotion, referrals, product sampling, surveys, and micro-tasks—backed by verified deliverables.
               </p>
             </div>
 
@@ -72,7 +72,7 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
                 onClick={() => scrollToSection('brand-services')}
                 className="inline-flex items-center gap-2 rounded-xl bg-[#22C55E] px-6 py-3 text-sm font-semibold text-[#061810] transition-colors hover:bg-[#16A34A] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#22C55E] whitespace-nowrap shrink-0 cursor-pointer"
               >
-                <span>Explore 6 Campaign Formats</span>
+                <span>View Campaign Services</span>
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </button>
               <button
@@ -80,7 +80,7 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
                 onClick={() => onNavigate('teen')}
                 className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-[#13233A] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#182C48] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white whitespace-nowrap shrink-0 cursor-pointer"
               >
-                <span>View Teen Journey</span>
+                <span>See Teen Journey</span>
               </button>
             </div>
           </div>
@@ -89,10 +89,10 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
             <div className="relative h-72 overflow-hidden rounded-2xl border border-white/10 bg-[#13233A] sm:h-96 lg:h-full">
               <ResilientImage
                 src="/src/assets/images/funngro_brand_strategy_1795056773821.jpg"
-                alt="Enterprise marketing and fintech team reviewing youth campaign performance analytics in a dark modern strategy room"
+                alt="Marketing and product strategy team reviewing campaign analytics and youth insights"
                 className="h-full w-full object-cover"
-                fallbackTitle="Brand Campaign Command"
-                fallbackSubtitle="Structured deliverables, proof verification, and youth audience insights."
+                fallbackTitle="Brand Campaign Strategy"
+                fallbackSubtitle="Verified youth execution, product feedback, and campaign tracking."
               />
               <div
                 aria-hidden="true"
@@ -100,20 +100,20 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
               />
               <div className="absolute inset-x-0 bottom-0 p-6">
                 <p className="text-xs font-medium text-[#22C55E]">
-                  Outcome-Verified Campaigns · Pan-India Youth Reach
+                  Verified Execution · Pan-India Youth Network
                 </p>
                 <p className="mt-1 text-sm font-medium text-white">
-                  Pay strictly for verified proof across content, acquisition, and structured market feedback.
+                  Budgets go strictly toward verified content, installs, sampling trials, and survey responses.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Full-Width 4-Column Key Brand Strip */}
+        {/* Full-Width 4-Column Highlights */}
         <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <div className="rounded-xl border border-white/8 bg-[#13233A] p-5">
-            <p className="font-mono-tabular text-2xl font-semibold text-white">06 Formats</p>
+            <p className="font-mono-tabular text-2xl font-semibold text-white">6 Formats</p>
             <p className="mt-1 text-sm font-medium text-slate-200">Campaign Services</p>
             <p className="mt-1 text-xs text-slate-400">
               Content, promotion, referrals, sampling, surveys, QA.
@@ -121,29 +121,29 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
           </div>
           <div className="rounded-xl border border-white/8 bg-[#13233A] p-5">
             <p className="font-mono-tabular text-2xl font-semibold text-[#22C55E]">2-Sided</p>
-            <p className="mt-1 text-sm font-medium text-slate-200">Value Exchange</p>
+            <p className="mt-1 text-sm font-medium text-slate-200">Mutual Ecosystem</p>
             <p className="mt-1 text-xs text-slate-400">
-              Brand ROI paired with real youth skill development.
+              Measurable brand reach paired with teen skill growth.
             </p>
           </div>
           <div className="rounded-xl border border-white/8 bg-[#13233A] p-5">
             <p className="font-mono-tabular text-2xl font-semibold text-white">100% Proof</p>
-            <p className="mt-1 text-sm font-medium text-slate-200">Audited Deliverables</p>
+            <p className="mt-1 text-sm font-medium text-slate-200">Audited Delivery</p>
             <p className="mt-1 text-xs text-slate-400">
-              Every submission verified before payout release.
+              Every submission is verified before payout release.
             </p>
           </div>
           <div className="rounded-xl border border-white/8 bg-[#13233A] p-5">
-            <p className="font-mono-tabular text-2xl font-semibold text-white">05+ Sectors</p>
-            <p className="mt-1 text-sm font-medium text-slate-200">Industry Verticals</p>
+            <p className="font-mono-tabular text-2xl font-semibold text-white">5+ Sectors</p>
+            <p className="mt-1 text-sm font-medium text-slate-200">Industry Focus</p>
             <p className="mt-1 text-xs text-slate-400">
-              Fintech, BFSI, research, mobility, and D2C brands.
+              Fintech, BFSI, research, mobility, and consumer brands.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Section 1: Two-Sided Ecosystem Architecture Diagram */}
+      {/* Section 1: Two-Sided Ecosystem Diagram */}
       <section
         id="two-sided-diagram"
         className="mx-auto max-w-6xl scroll-mt-24 px-4 sm:px-6 lg:px-8"
@@ -151,10 +151,10 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
         <div className="flex flex-col justify-between gap-4 border-b border-white/8 pb-6 lg:flex-row lg:items-end">
           <div>
             <p className="text-xs font-medium text-[#22C55E]">
-              Two-Sided Marketplace Architecture
+              How the Two-Sided Ecosystem Works
             </p>
             <h2 className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-3xl text-balance">
-              How brands and young earners create mutual value on Funngro
+              Connecting company campaigns directly with young earners
             </h2>
           </div>
 
@@ -174,7 +174,7 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
                   : 'text-slate-300 hover:text-white'
               }`}
             >
-              Full Loop
+              Full Ecosystem
             </button>
             <button
               type="button"
@@ -218,89 +218,89 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
             <div>
               <div className="flex items-center justify-between">
                 <span className="text-xs font-semibold text-[#22C55E]">
-                  Supply of Briefs &amp; Budgets
+                  Campaign Briefs &amp; Goals
                 </span>
                 <Building2 className="h-5 w-5 text-[#22C55E]" aria-hidden="true" />
               </div>
               <h3 className="mt-3 text-xl font-bold text-white">
-                Brands &amp; Enterprises
+                Brands &amp; Companies
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-slate-300">
-                Companies publish scoped campaign briefs, target demographics, and per-task payout budgets.
+                Businesses define their campaign goals, target youth audience, required proof, and per-task payout.
               </p>
 
               <ul className="mt-5 space-y-3 border-t border-white/8 pt-5 text-sm text-slate-200">
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-[#22C55E]" aria-hidden="true" />
-                  <span>Tap authentic Gen-Z creators and campus advocates</span>
+                  <span>Reach Gen-Z creators and college communities directly</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-[#22C55E]" aria-hidden="true" />
-                  <span>Gather unfiltered product, pricing, and UX feedback</span>
+                  <span>Collect honest product, pricing, and UX feedback</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-[#22C55E]" aria-hidden="true" />
-                  <span>Scale verified user acquisition with zero ad waste</span>
+                  <span>Scale verified user sign-ups and content assets</span>
                 </li>
               </ul>
             </div>
 
             <div className="mt-6 border-t border-white/8 pt-4 text-xs text-slate-400">
-              Output to Platform · Scoped briefs + milestone funding
+              Provides · Scoped briefs &amp; campaign budgets
             </div>
           </div>
 
-          {/* Center Engine: Funngro Platform Core */}
+          {/* Center Engine: Funngro Platform */}
           <div className="flex flex-col justify-between rounded-2xl border border-[#22C55E]/60 bg-[#081322] p-6 lg:col-span-4">
             <div>
               <div className="flex items-center justify-between">
                 <span className="text-xs font-semibold text-[#22C55E]">
-                  Verification &amp; Settlement Core
+                  Matching, Review &amp; Payouts
                 </span>
                 <ShieldCheck className="h-5 w-5 text-[#22C55E]" aria-hidden="true" />
               </div>
               <h3 className="mt-3 text-xl font-bold text-white">
-                Funngro Ecosystem Engine
+                Funngro Platform
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-slate-300">
-                Matches briefs to eligible teen cohorts, enforces proof checklists, and automates UPI settlement.
+                Connects briefs with verified teens, reviews every piece of submitted proof, and settles payouts cleanly.
               </p>
 
               <div className="mt-6 space-y-3">
                 <div className="rounded-xl border border-white/8 bg-[#13233A] p-3.5">
                   <div className="flex items-center justify-between text-xs font-semibold text-white">
-                    <span>1. Cohort &amp; Tier Matching</span>
+                    <span>1. Smart Cohort Matching</span>
                     <ArrowLeftRight className="h-3.5 w-3.5 text-[#22C55E]" aria-hidden="true" />
                   </div>
                   <p className="mt-1 text-xs text-slate-400">
-                    Routes tasks by city tier, skill badge, and past accuracy.
+                    Matches campaigns by city tier, skills, and reliability score.
                   </p>
                 </div>
 
                 <div className="rounded-xl border border-white/8 bg-[#13233A] p-3.5">
                   <div className="flex items-center justify-between text-xs font-semibold text-white">
-                    <span>2. Proof &amp; Quality Audit</span>
+                    <span>2. Proof &amp; Quality Checks</span>
                     <ArrowLeftRight className="h-3.5 w-3.5 text-[#22C55E]" aria-hidden="true" />
                   </div>
                   <p className="mt-1 text-xs text-slate-400">
-                    Validates screenshots, video links, and survey integrity.
+                    Audits screenshots, published links, and survey responses.
                   </p>
                 </div>
 
                 <div className="rounded-xl border border-white/8 bg-[#13233A] p-3.5">
                   <div className="flex items-center justify-between text-xs font-semibold text-white">
-                    <span>3. Escrow-to-UPI Payout</span>
+                    <span>3. Direct UPI Settlement</span>
                     <ArrowLeftRight className="h-3.5 w-3.5 text-[#22C55E]" aria-hidden="true" />
                   </div>
                   <p className="mt-1 text-xs text-slate-400">
-                    Releases funds cleanly once deliverables pass checklist.
+                    Releases earnings to teen wallets once deliverables pass review.
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="mt-6 border-t border-white/8 pt-4 text-xs font-medium text-[#22C55E]">
-              Guarantees fair payouts for teens &amp; verified ROI for brands
+              Trusted payouts for teens · Verified results for brands
             </div>
           </div>
 
@@ -315,7 +315,7 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
             <div>
               <div className="flex items-center justify-between">
                 <span className="text-xs font-semibold text-[#22C55E]">
-                  Execution &amp; Audience Insights
+                  Remote Execution &amp; Feedback
                 </span>
                 <Users className="h-5 w-5 text-[#22C55E]" aria-hidden="true" />
               </div>
@@ -323,27 +323,27 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
                 Teens &amp; Young Earners
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-slate-300">
-                Students claim verified remote projects, submit deliverable proof, and build real-world experience.
+                Students pick verified tasks, submit real proof of work, and build practical career skills.
               </p>
 
               <ul className="mt-5 space-y-3 border-t border-white/8 pt-5 text-sm text-slate-200">
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-[#22C55E]" aria-hidden="true" />
-                  <span>Earn independent pocket money via UPI or bank transfer</span>
+                  <span>Earn independent money via UPI or bank transfer</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-[#22C55E]" aria-hidden="true" />
-                  <span>Gain practical skills in content, QA, and research</span>
+                  <span>Gain hands-on content, QA, and research experience</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-[#22C55E]" aria-hidden="true" />
-                  <span>Unlock higher-tier retainers &amp; campus squad leadership</span>
+                  <span>Progress into flagship retainers and squad leadership</span>
                 </li>
               </ul>
             </div>
 
             <div className="mt-6 border-t border-white/8 pt-4 text-xs text-slate-400">
-              Output to Brands · Verified deliverables + authentic youth reach
+              Delivers · Verified tasks + real youth insights
             </div>
           </div>
         </div>
@@ -357,10 +357,10 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
         <div className="flex flex-col justify-between gap-4 border-b border-white/8 pb-6 lg:flex-row lg:items-end">
           <div>
             <p className="text-xs font-medium text-[#22C55E]">
-              Campaign Formats · Six Core Services
+              Services &amp; Campaign Formats
             </p>
             <h2 className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-3xl text-balance">
-              Modular youth campaigns built for measurable outcomes
+              Six campaign formats built for measurable brand growth
             </h2>
           </div>
 
@@ -422,7 +422,7 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
 
               <div className="mt-6 space-y-3 border-t border-white/8 pt-4 text-xs">
                 <div>
-                  <span className="font-medium text-slate-400">Brand Impact: </span>
+                  <span className="font-medium text-slate-400">Brand Outcome: </span>
                   <span className="text-slate-200">{service.brandOutcome}</span>
                 </div>
                 <div className="flex items-center justify-between text-slate-400">
@@ -445,14 +445,14 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
         <div className="flex flex-col justify-between gap-4 border-b border-white/8 pb-6 md:flex-row md:items-end">
           <div>
             <p className="text-xs font-medium text-[#22C55E]">
-              Sector Verticals · Industry Categories
+              Industries We Serve
             </p>
             <h2 className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-3xl text-balance">
-              Tailored youth workflows across high-growth industries
+              Tailored youth campaigns across key industry sectors
             </h2>
           </div>
           <p className="max-w-md text-sm text-slate-400">
-            Select an industry vertical to view how companies structure campaigns and gather Gen-Z insights.
+            Select a category to see how companies in that sector partner with Funngro.
           </p>
         </div>
 
@@ -496,7 +496,7 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
             })}
           </div>
 
-          {/* Active Industry Blueprint Detail */}
+          {/* Active Industry Detail */}
           <div className="rounded-2xl border border-white/10 bg-[#13233A] p-6 sm:p-8 lg:col-span-8">
             <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/8 pb-4">
               <div>
@@ -519,10 +519,10 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
             <div className="mt-6 grid grid-cols-1 gap-6 border-t border-white/8 pt-6 md:grid-cols-2">
               <div>
                 <p className="text-xs font-semibold text-white">
-                  Common Campaign Blueprints
+                  Typical Brand Campaigns
                 </p>
                 <ul className="mt-3 space-y-2.5">
-                  {activeIndustry.sampleCampaigns.map((camp) => (
+                  {activeIndustry.campaigns.map((camp) => (
                     <li
                       key={camp}
                       className="flex items-start gap-2.5 text-sm text-slate-300"
@@ -539,13 +539,13 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
 
               <div className="rounded-xl border border-white/8 bg-[#0B192C] p-5">
                 <p className="text-xs font-semibold text-[#22C55E]">
-                  Youth Intelligence Captured
+                  Insights Companies Gain
                 </p>
                 <p className="mt-2 text-sm leading-relaxed text-slate-200">
                   {activeIndustry.youthInsightFocus}
                 </p>
                 <p className="mt-4 border-t border-white/8 pt-3 text-xs text-slate-400">
-                  Every deliverable feeds back into structured brand dashboards while earners build sector familiarity.
+                  Structured results feed directly into brand dashboards while young earners build real industry familiarity.
                 </p>
               </div>
             </div>
@@ -553,18 +553,18 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
         </div>
       </section>
 
-      {/* Page Transition Banner back to Page 1 */}
+      {/* Transition Banner back to Teen Ecosystem */}
       <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-start justify-between gap-6 rounded-2xl border border-white/10 bg-[#13233A] p-8 sm:flex-row sm:items-center">
           <div>
             <p className="text-xs font-medium text-[#22C55E]">
-              Return to Page 01
+              For Teens &amp; Students
             </p>
             <h2 className="mt-1.5 text-xl font-bold text-white sm:text-2xl">
-              Review How It Works &amp; Teen Ecosystem Progression
+              See How It Works &amp; Teen Progression
             </h2>
             <p className="mt-2 max-w-xl text-sm text-slate-300">
-              Trace the complete 5-step earning flow from sign-up and proof submission to UPI/bank payouts and leadership tiers.
+              Explore the 5-step earning journey from sign-up and proof submission to UPI payouts and squad leadership.
             </p>
           </div>
           <button
@@ -573,7 +573,7 @@ export function BrandEcosystemPage({ onNavigate }: BrandEcosystemPageProps) {
             className="inline-flex items-center gap-2 rounded-xl bg-[#22C55E] px-6 py-3 text-sm font-semibold text-[#061810] transition-colors hover:bg-[#16A34A] whitespace-nowrap shrink-0 cursor-pointer"
           >
             <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-            <span>Open Teen Ecosystem</span>
+            <span>Back to Teen Ecosystem</span>
           </button>
         </div>
       </section>

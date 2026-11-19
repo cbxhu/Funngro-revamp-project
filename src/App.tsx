@@ -13,15 +13,15 @@ const PAGE_META: Record<
 > = {
   teen: {
     path: '/how-it-works',
-    title: 'Funngro – How It Works & Teen Earning Ecosystem',
+    title: 'Funngro – Earn Real Money & Learn Skills | How It Works',
     description:
-      'Step-by-step guide to signing up on Funngro, completing verified brand tasks, building skills from surveys to leadership, and receiving UPI or bank payouts.',
+      'Work on real brand projects, build practical skills, and receive direct UPI or bank payouts on Funngro—India’s earning platform for teens and young creators.',
   },
   brand: {
-    path: '/brand-ecosystem',
-    title: 'Funngro – Services & Two-Sided Brand Ecosystem',
+    path: '/for-brands',
+    title: 'Funngro for Brands – Youth Campaigns, Content & Market Research',
     description:
-      'Explore Funngro brand campaign formats including content creation, promotion, referrals, sampling, surveys, and micro-tasks across fintech, BFSI, mobility, and D2C.',
+      'Partner with Funngro for teen content creation, brand promotion, referrals, product sampling, youth surveys, and micro-tasks across fintech, BFSI, mobility, and D2C.',
   },
 };
 
@@ -37,7 +37,6 @@ function getInitialPage(): PageId {
 export default function App() {
   const [activePage, setActivePage] = useState<PageId>(getInitialPage);
 
-  // Sync SEO title, meta description, and canonical tags on page switch
   useEffect(() => {
     const meta = PAGE_META[activePage];
     document.title = meta.title;
@@ -58,7 +57,6 @@ export default function App() {
     if (twDesc) twDesc.setAttribute('content', meta.description);
   }, [activePage]);
 
-  // Listen to browser back/forward navigation
   useEffect(() => {
     const handlePopState = () => {
       setActivePage(getInitialPage());
@@ -82,7 +80,6 @@ export default function App() {
       }
 
       if (sectionId) {
-        // Delay briefly if page switched so the target DOM section mounts first
         window.setTimeout(
           () => {
             const el = document.getElementById(sectionId);

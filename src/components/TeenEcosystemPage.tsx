@@ -48,7 +48,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
           <div className="flex flex-col justify-between lg:col-span-6">
             <div>
               <p className="text-xs font-medium tracking-wide text-[#22C55E]">
-                Page 01 · How It Works &amp; Teen Ecosystem
+                For Teens &amp; Young Earners · How Funngro Works
               </p>
               <h1
                 className="mt-4 font-bold tracking-tight text-white text-balance"
@@ -57,7 +57,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
                 Earn your first real income through verified brand work.
               </h1>
               <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-300 sm:text-lg">
-                Funngro connects students and young creators with real companies for remote, project-based assignments—moving cleanly from onboarding and proof submission to verified UPI and bank payouts.
+                Work on real projects from trusted companies—from product testing and short reels to surveys—and receive direct payouts straight to your UPI or bank account.
               </p>
             </div>
 
@@ -67,7 +67,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
                 onClick={() => scrollToSection('system-flow')}
                 className="inline-flex items-center gap-2 rounded-xl bg-[#22C55E] px-6 py-3 text-sm font-semibold text-[#061810] transition-colors hover:bg-[#16A34A] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#22C55E] whitespace-nowrap shrink-0 cursor-pointer"
               >
-                <span>Walk Through the 5 Steps</span>
+                <span>See How Earning Works</span>
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </button>
               <button
@@ -75,7 +75,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
                 onClick={() => onNavigate('brand')}
                 className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-[#13233A] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#182C48] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white whitespace-nowrap shrink-0 cursor-pointer"
               >
-                <span>See Brand Ecosystem</span>
+                <span>Explore Brand Services</span>
               </button>
             </div>
           </div>
@@ -84,10 +84,10 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
             <div className="relative h-72 overflow-hidden rounded-2xl border border-white/10 bg-[#13233A] sm:h-96 lg:h-full">
               <ResilientImage
                 src="/src/assets/images/funngro_teen_workspace_1795056774269.jpg"
-                alt="Young Indian university students and teen creators collaborating remotely on laptops and smartphones in a modern study space"
+                alt="Young Indian university students and teen creators collaborating remotely on laptops and smartphones"
                 className="h-full w-full object-cover"
                 fallbackTitle="Remote Teenlancer Workspace"
-                fallbackSubtitle="Students collaborating on digital campaigns, surveys, and content creation."
+                fallbackSubtitle="Students collaborating on brand campaigns, surveys, and content creation."
               />
               <div
                 aria-hidden="true"
@@ -95,44 +95,44 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
               />
               <div className="absolute inset-x-0 bottom-0 p-6">
                 <p className="text-xs font-medium text-[#22C55E]">
-                  Verified Remote Execution · Flexible Study Hours
+                  Flexible Remote Work · Built Around Classes
                 </p>
                 <p className="mt-1 text-sm font-medium text-white">
-                  Complete tasks from phone or laptop without disrupting school or college schedules.
+                  Pick projects from your phone or laptop whenever your study schedule allows.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Full-Width 4-Column Key Architecture Strip */}
+        {/* Full-Width 4-Column Highlights */}
         <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <div className="rounded-xl border border-white/8 bg-[#13233A] p-5">
-            <p className="font-mono-tabular text-2xl font-semibold text-white">05 Steps</p>
-            <p className="mt-1 text-sm font-medium text-slate-200">End-to-End Task Flow</p>
+            <p className="font-mono-tabular text-2xl font-semibold text-white">5 Steps</p>
+            <p className="mt-1 text-sm font-medium text-slate-200">Simple Workflow</p>
             <p className="mt-1 text-xs text-slate-400">
-              Sign-up to verified payout in one trackable loop.
+              Sign up, complete a brief, verify, and withdraw.
             </p>
           </div>
           <div className="rounded-xl border border-white/8 bg-[#13233A] p-5">
             <p className="font-mono-tabular text-2xl font-semibold text-[#22C55E]">UPI &amp; Bank</p>
-            <p className="mt-1 text-sm font-medium text-slate-200">Direct Payout Rails</p>
+            <p className="mt-1 text-sm font-medium text-slate-200">Direct Payouts</p>
             <p className="mt-1 text-xs text-slate-400">
-              Settled straight from wallet after proof verification.
+              Transfer approved earnings straight to your account.
             </p>
           </div>
           <div className="rounded-xl border border-white/8 bg-[#13233A] p-5">
-            <p className="font-mono-tabular text-2xl font-semibold text-white">03 Tiers</p>
-            <p className="mt-1 text-sm font-medium text-slate-200">Progression Path</p>
+            <p className="font-mono-tabular text-2xl font-semibold text-white">3 Levels</p>
+            <p className="mt-1 text-sm font-medium text-slate-200">Clear Growth Path</p>
             <p className="mt-1 text-xs text-slate-400">
-              Advance from micro-tasks to squad leadership.
+              Grow from starter tasks into squad leadership.
             </p>
           </div>
           <div className="rounded-xl border border-white/8 bg-[#13233A] p-5">
             <p className="font-mono-tabular text-2xl font-semibold text-white">100% Remote</p>
-            <p className="mt-1 text-sm font-medium text-slate-200">Skill-First Earnings</p>
+            <p className="mt-1 text-sm font-medium text-slate-200">Real Experience</p>
             <p className="mt-1 text-xs text-slate-400">
-              Content, research, QA, and operations experience.
+              Build content, research, and leadership skills.
             </p>
           </div>
         </div>
@@ -146,21 +146,21 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
         <div className="flex flex-col justify-between gap-4 border-b border-white/8 pb-6 md:flex-row md:items-end">
           <div>
             <p className="text-xs font-medium text-[#22C55E]">
-              System Architecture · Step-by-Step Flow
+              How Funngro Works
             </p>
             <h2 className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-3xl text-balance">
-              From sign-up to verified UPI payout in five clear stages
+              From sign-up to verified UPI payout in five steps
             </h2>
           </div>
           <p className="max-w-md text-sm text-slate-400">
-            Select any stage below to inspect exact actions, proof submission rules, and verification checkpoints.
+            Click any step below to see what you do, how proof is checked, and how payouts reach your account.
           </p>
         </div>
 
         {/* Interactive 5-Step Horizontal Selector */}
         <div
           role="tablist"
-          aria-label="5-step Funngro earning workflow"
+          aria-label="Funngro 5-step earning process"
           className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-5"
         >
           {SYSTEM_FLOW_STEPS.map((step, index) => {
@@ -233,7 +233,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
                   className="inline-flex items-center gap-2 rounded-lg bg-[#22C55E] px-4 py-2 text-xs font-semibold text-[#061810] transition-colors hover:bg-[#16A34A] whitespace-nowrap shrink-0 cursor-pointer"
                 >
                   <span>
-                    {activeStep.id < 5 ? 'Inspect Next Step' : 'Restart from Step 01'}
+                    {activeStep.id < 5 ? 'Next Step' : 'Back to Step 01'}
                   </span>
                   <ChevronRight className="h-4 w-4" aria-hidden="true" />
                 </button>
@@ -243,7 +243,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
             <div className="flex flex-col justify-between gap-5 border-t border-white/8 pt-6 lg:col-span-5 lg:border-t-0 lg:border-l lg:pt-0 lg:pl-8">
               <div>
                 <p className="text-xs font-medium text-slate-400">
-                  Checkpoint &amp; Trust Guardrail
+                  Why This Matters
                 </p>
                 <p className="mt-2 text-sm leading-relaxed text-slate-200">
                   {activeStep.verificationNote}
@@ -252,7 +252,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
 
               <div className="border-t border-white/8 pt-5">
                 <p className="text-xs font-medium text-slate-400">
-                  Expected Output
+                  What Happens Next
                 </p>
                 <p className="mt-2 flex items-start gap-2.5 text-sm font-medium text-[#22C55E]">
                   <Landmark className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
@@ -272,18 +272,18 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
         <div className="flex flex-col justify-between gap-4 border-b border-white/8 pb-6 md:flex-row md:items-end">
           <div>
             <p className="text-xs font-medium text-[#22C55E]">
-              Growth Trajectory · Ecosystem Progression
+              Teen Ecosystem Progression
             </p>
             <h2 className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-3xl text-balance">
-              How Teenlancers grow from simple tasks to campaign leadership
+              Start with simple tasks and grow into campaign leadership
             </h2>
           </div>
           <p className="max-w-md text-sm text-slate-400">
-            Reliability on early micro-tasks unlocks creative retainers, higher payout tiers, and peer squad leadership.
+            Consistent quality on early projects unlocks content briefs, referral drives, and team lead roles.
           </p>
         </div>
 
-        {/* 3-Stage Progression Cards + Interactive Selector */}
+        {/* 3-Stage Progression Cards */}
         <div className="mt-8 grid grid-cols-1 gap-5 lg:grid-cols-3">
           {ECOSYSTEM_PROGRESSION.map((stage, idx) => {
             const isSelected = idx === selectedStageIdx;
@@ -304,7 +304,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
                       {stage.tier}
                     </span>
                     <span className="text-slate-400">
-                      {idx === 0 ? 'Entry' : idx === 1 ? 'Intermediate' : 'Advanced'}
+                      {idx === 0 ? 'Getting Started' : idx === 1 ? 'Growing Creator' : 'Squad Leader'}
                     </span>
                   </div>
                   <h3 className="mt-3 text-lg font-bold text-white">
@@ -316,7 +316,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
                 </div>
 
                 <div className="mt-6 border-t border-white/8 pt-4">
-                  <p className="text-xs font-medium text-slate-400">Unlock Criteria</p>
+                  <p className="text-xs font-medium text-slate-400">How You Unlock This</p>
                   <p className="mt-1 text-xs font-medium text-slate-200">
                     {stage.unlockRequirement}
                   </p>
@@ -357,7 +357,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
 
             <div className="border-t border-white/8 pt-6 lg:col-span-6 lg:border-t-0 lg:border-l lg:pt-0 lg:pl-8">
               <p className="text-xs font-medium text-slate-400">
-                Core Capabilities Developed in {activeStage.tier}
+                Skills You Build at {activeStage.tier}
               </p>
               <div className="mt-4 space-y-4">
                 {activeStage.skillsBuilt.map((skill, sIdx) => (
@@ -367,7 +367,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
                   >
                     <span className="text-sm font-medium text-white">{skill}</span>
                     <span className="font-mono-tabular text-xs text-slate-400">
-                      Track 0{sIdx + 1}
+                      0{sIdx + 1}
                     </span>
                   </div>
                 ))}
@@ -386,13 +386,13 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
           <div className="flex flex-col justify-between lg:col-span-5">
             <div>
               <p className="text-xs font-medium text-[#22C55E]">
-                Practical Portfolio · Remote Earning
+                Skills &amp; Flexible Income
               </p>
               <h2 className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-3xl text-balance">
-                Skill-building designed around real brand deliverables
+                Build practical career skills while earning remotely
               </h2>
               <p className="mt-4 text-sm leading-relaxed text-slate-300 sm:text-base">
-                Every completed brief strengthens practical career readiness—combining flexible remote payouts with verifiable experience in digital marketing, user research, and project ownership.
+                Every brand brief gives you hands-on experience in digital marketing, product testing, and communication—alongside real money you earn yourself.
               </p>
             </div>
 
@@ -400,7 +400,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
               <div className="aspect-[4/3] w-full">
                 <ResilientImage
                   src="/src/assets/images/funngro_creator_content_1795056773637.jpg"
-                  alt="Young creator filming a clean consumer product unboxing and review reel using a smartphone tripod"
+                  alt="Young creator filming a consumer product unboxing and review reel on a smartphone"
                   className="h-full w-full object-cover"
                   fallbackTitle="Creator Content Production"
                   fallbackSubtitle="Short-form product reviews and studio-free photography."
@@ -408,10 +408,10 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
               </div>
               <div className="p-5">
                 <p className="text-xs font-medium text-[#22C55E]">
-                  Reels · Product Photography · UX Audits
+                  Reels · Product Photography · App Feedback
                 </p>
                 <p className="mt-1.5 text-sm text-slate-300">
-                  Creators work with consumer gadgets, fintech apps, and D2C launches directly from home.
+                  Work with consumer brands, fintech apps, and new launches right from home.
                 </p>
               </div>
             </div>
@@ -428,7 +428,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
                     <span className="font-mono-tabular font-semibold text-[#22C55E]">
                       {card.index}
                     </span>
-                    <span>Remote Capability</span>
+                    <span>Remote Skill</span>
                   </div>
                   <h3 className="mt-3 text-lg font-bold text-white">{card.title}</h3>
                   <p className="mt-1 text-xs font-medium text-slate-400">
@@ -440,7 +440,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
                 </div>
 
                 <div className="mt-6 border-t border-white/8 pt-4">
-                  <p className="text-xs font-medium text-slate-400">Long-Term Outcome</p>
+                  <p className="text-xs font-medium text-slate-400">What You Take Away</p>
                   <p className="mt-1 text-xs leading-relaxed text-slate-200">
                     {card.practicalOutcome}
                   </p>
@@ -451,18 +451,18 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
         </div>
       </section>
 
-      {/* Page Transition Banner to Page 2 */}
+      {/* Transition Banner to Brand Ecosystem */}
       <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-start justify-between gap-6 rounded-2xl border border-white/10 bg-[#13233A] p-8 sm:flex-row sm:items-center">
           <div>
             <p className="text-xs font-medium text-[#22C55E]">
-              Continue to Page 02
+              For Companies &amp; Marketing Teams
             </p>
             <h2 className="mt-1.5 text-xl font-bold text-white sm:text-2xl">
-              Explore Services &amp; the Two-Sided Brand Ecosystem
+              Explore Funngro Services &amp; the Brand Ecosystem
             </h2>
             <p className="mt-2 max-w-xl text-sm text-slate-300">
-              See how fintech, BFSI, research, mobility, and consumer brands deploy youth campaigns across six structured formats.
+              See how fintech, BFSI, research, mobility, and consumer brands run youth campaigns across six formats.
             </p>
           </div>
           <button
@@ -470,7 +470,7 @@ export function TeenEcosystemPage({ onNavigate }: TeenEcosystemPageProps) {
             onClick={() => onNavigate('brand')}
             className="inline-flex items-center gap-2 rounded-xl bg-[#22C55E] px-6 py-3 text-sm font-semibold text-[#061810] transition-colors hover:bg-[#16A34A] whitespace-nowrap shrink-0 cursor-pointer"
           >
-            <span>Open Brand Ecosystem</span>
+            <span>Explore Brand Services</span>
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </button>
         </div>

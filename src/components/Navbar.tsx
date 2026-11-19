@@ -108,7 +108,7 @@ export function Navbar({ activePage, onNavigate }: NavbarProps) {
               }`}
             >
               <span>How It Works</span>
-              <span className="text-xs text-slate-400">Page 1</span>
+              <span className="text-xs text-slate-400">Teens</span>
             </button>
             <button
               type="button"
@@ -128,7 +128,7 @@ export function Navbar({ activePage, onNavigate }: NavbarProps) {
               }`}
             >
               <span>Brand Services</span>
-              <span className="text-xs text-slate-400">Page 2</span>
+              <span className="text-xs text-slate-400">Brands</span>
             </button>
             <button
               type="button"
@@ -136,7 +136,7 @@ export function Navbar({ activePage, onNavigate }: NavbarProps) {
               className="flex items-center justify-between rounded-lg px-3 py-2.5 text-left text-sm font-medium text-slate-200 transition-colors hover:bg-[#13233A] cursor-pointer"
             >
               <span>Industries</span>
-              <span className="text-xs text-slate-400">Verticals</span>
+              <span className="text-xs text-slate-400">Sectors</span>
             </button>
             <button
               type="button"

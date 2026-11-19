@@ -1,6 +1,6 @@
 {
   "name": "Funngro Ecosystem",
-  "description": "Clean 2-page explainer of the Funngro teen earning ecosystem, step-by-step payout flow, skill progression, and brand campaign services.",
+  "description": "Smart earning platform connecting teens and young creators with leading brands through verified remote projects, skill progression, and direct UPI payouts.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

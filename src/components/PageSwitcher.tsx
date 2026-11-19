@@ -12,7 +12,7 @@ export function PageSwitcher({ activePage, onNavigate }: PageSwitcherProps) {
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-3 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
         <div
           role="tablist"
-          aria-label="Ecosystem pages"
+          aria-label="Choose Funngro view"
           className="inline-flex w-full sm:w-auto items-center rounded-xl border border-white/10 bg-[#0B192C] p-1"
         >
           <button
@@ -26,7 +26,7 @@ export function PageSwitcher({ activePage, onNavigate }: PageSwitcherProps) {
                 : 'text-slate-300 hover:text-white'
             }`}
           >
-            01. How It Works &amp; Teen Ecosystem
+            How It Works &amp; Teen Ecosystem
           </button>
           <button
             type="button"
@@ -39,7 +39,7 @@ export function PageSwitcher({ activePage, onNavigate }: PageSwitcherProps) {
                 : 'text-slate-300 hover:text-white'
             }`}
           >
-            02. Services &amp; Brand Ecosystem
+            Services &amp; Brand Ecosystem
           </button>
         </div>
 
@@ -50,8 +50,8 @@ export function PageSwitcher({ activePage, onNavigate }: PageSwitcherProps) {
         >
           <span>
             {activePage === 'teen'
-              ? 'Next: Explore Services & Brand Ecosystem'
-              : 'Back: Explore How It Works & Teen Progression'}
+              ? 'For Companies: Explore Brand Services'
+              : 'For Teens: See How Earning Works'}
           </span>
           <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
         </button>
