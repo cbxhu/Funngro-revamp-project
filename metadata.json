@@ -1,0 +1,6 @@
+{
+  "name": "Funngro Ecosystem",
+  "description": "Clean 2-page explainer of the Funngro teen earning ecosystem, step-by-step payout flow, skill progression, and brand campaign services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
